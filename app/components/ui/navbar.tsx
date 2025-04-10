@@ -28,7 +28,7 @@ export default function Navbar() {
             <Link
             href={link.href}
             key={link.id}
-            className='text-md cursor-pointer hover:text-primary'>
+            className='text-md cursor-pointer hover:text-orange'>
               {link.title}
             </Link>
           ))}
